@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal portfolio. Explore my work and connect with me!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#image-section">Image Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate developer specializing in web development and data science. I love solving problems and building impactful solutions.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Project 1: AI-Based Chatbot</li>
+                <li>Project 2: Real-Time Weather App</li>
+                <li>Project 3: Sentiment Analysis Tool</li>
+            </ul>
+        </section>
+        <section id="image-section">
+            <h2>Image Gallery</h2>
+            <p>Paste an image URL below to display it in the gallery:</p>
+            <img src="https://ozqpgexltqjumwcmhquk.supabase.co//storage/v1/object/public/imgs2/cat.jpeg" alt="">
+            <input type="text" id="image-url" placeholder="Enter image URL here">
+            <button id="add-image">Add Image</button>
+            <div id="gallery"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
